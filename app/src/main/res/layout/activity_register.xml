@@ -45,9 +45,9 @@
             android:singleLine="true"
             android:padding="5dp"   />
 
-        <!-- Email Label -->
+        <!-- Phone Label -->
         <EditText
-            android:id="@+id/etEmailAddress"
+            android:id="@+id/etPhone"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentLeft="true"
@@ -55,7 +55,21 @@
             android:layout_marginTop="10dp"
             android:hint="Email Address"
             android:singleLine="true"
-            android:inputType="textEmailAddress"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:padding="5dp"   />
+
+        <!-- Phone Label -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:hint="New Password"
+            android:singleLine="true"
+            android:inputType="textPassword"
             android:padding="5dp"   />
 
         <LinearLayout
@@ -74,14 +88,7 @@
                 android:text="Create a new account"
                 android:layout_weight="1"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="contact moses1889@gmail.com for a personal tutorial."
-                android:padding="5dp"
-                android:layout_gravity="left"
-                android:layout_marginBottom="5dp"
-                android:layout_marginLeft="7dp"/>
+
 
         </LinearLayout>
 

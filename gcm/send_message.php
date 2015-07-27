@@ -13,15 +13,11 @@ if (isset($_GET["regId"]) && isset($_GET["message"])) {
     $message = $_GET["message"];
      
     include_once './gcm.php';
-
-    $i = 1000;
-    $f = 3000;
-    $j = $i*$j;
      
     $gcm = new GCM();
  
     $registatoin_ids = array($regId);
-    $message = array("price" => $message);
+    $message = array("message" => $message);
  
     $result = $gcm->send_notification($registatoin_ids, $message);
  
