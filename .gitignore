@@ -1,0 +1,14 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+/enezatings
+/enezatings/ConnectionDetector.java
+/enezatings/ConnectionUtilities.java
+/JSONParser.java
+/MakeHttpRequest.java
+/TestActivity.java
+
